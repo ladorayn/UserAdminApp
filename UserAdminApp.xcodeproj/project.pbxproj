@@ -8,17 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		BA0612DF29EE27C3004740F6 /* UserAdminAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612DE29EE27C3004740F6 /* UserAdminAppApp.swift */; };
-		BA0612E129EE27C3004740F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612E029EE27C3004740F6 /* ContentView.swift */; };
 		BA0612E329EE27C4004740F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0612E229EE27C4004740F6 /* Assets.xcassets */; };
 		BA0612E629EE27C4004740F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0612E529EE27C4004740F6 /* Preview Assets.xcassets */; };
+		BA0612F729EE2862004740F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612F629EE2862004740F6 /* ContentView.swift */; };
+		BA06130029EE28BB004740F6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612FA29EE28BB004740F6 /* Login.swift */; };
+		BA06130129EE28BB004740F6 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612FB29EE28BB004740F6 /* AdminView.swift */; };
+		BA06130229EE28BB004740F6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612FC29EE28BB004740F6 /* Home.swift */; };
+		BA06130329EE28BB004740F6 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612FD29EE28BB004740F6 /* Register.swift */; };
+		BA06130429EE28BB004740F6 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0612FE29EE28BB004740F6 /* SplashScreen.swift */; };
+		BA06130829EE28E2004740F6 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06130629EE28E2004740F6 /* PhotosModel.swift */; };
+		BA06130929EE28E2004740F6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06130729EE28E2004740F6 /* UserModel.swift */; };
+		BA06130E29EE2900004740F6 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06130B29EE2900004740F6 /* InputTextField.swift */; };
+		BA06130F29EE2900004740F6 /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06130C29EE2900004740F6 /* SecureTextField.swift */; };
+		BA06131029EE2900004740F6 /* RadioButtonGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06130D29EE2900004740F6 /* RadioButtonGroups.swift */; };
+		BA06131629EE2918004740F6 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06131329EE2918004740F6 /* AuthUser.swift */; };
+		BA06131729EE2918004740F6 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06131429EE2918004740F6 /* PhotoViewModel.swift */; };
+		BA06131C29EE2935004740F6 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA06131929EE2935004740F6 /* UserModel.xcdatamodeld */; };
+		BA06131D29EE2935004740F6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06131B29EE2935004740F6 /* DataController.swift */; };
+		BA06132029EE2957004740F6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BA06131F29EE2957004740F6 /* SDWebImageSwiftUI */; };
+		BA06132229EE29A2004740F6 /* RadioButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06132129EE29A2004740F6 /* RadioButtonField.swift */; };
+		BA3F142529EE37BB0009F41B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F142429EE37BB0009F41B /* UserView.swift */; };
+		BA4263E729EE308300737775 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4263E629EE308300737775 /* Credentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA0612DB29EE27C3004740F6 /* UserAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0612DE29EE27C3004740F6 /* UserAdminAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAdminAppApp.swift; sourceTree = "<group>"; };
-		BA0612E029EE27C3004740F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA0612E229EE27C4004740F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0612E529EE27C4004740F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA0612F629EE2862004740F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA0612FA29EE28BB004740F6 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		BA0612FB29EE28BB004740F6 /* AdminView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		BA0612FC29EE28BB004740F6 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BA0612FD29EE28BB004740F6 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		BA0612FE29EE28BB004740F6 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		BA06130629EE28E2004740F6 /* PhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		BA06130729EE28E2004740F6 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BA06130B29EE2900004740F6 /* InputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		BA06130C29EE2900004740F6 /* SecureTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
+		BA06130D29EE2900004740F6 /* RadioButtonGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonGroups.swift; sourceTree = "<group>"; };
+		BA06131329EE2918004740F6 /* AuthUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		BA06131429EE2918004740F6 /* PhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		BA06131A29EE2935004740F6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BA06131B29EE2935004740F6 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		BA06132129EE29A2004740F6 /* RadioButtonField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonField.swift; sourceTree = "<group>"; };
+		BA3F142429EE37BB0009F41B /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		BA4263E629EE308300737775 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA06132029EE2957004740F6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +87,13 @@
 		BA0612DD29EE27C3004740F6 /* UserAdminApp */ = {
 			isa = PBXGroup;
 			children = (
+				BA06131829EE292E004740F6 /* DataModel */,
+				BA06131129EE2910004740F6 /* ViewModel */,
+				BA06130A29EE28F6004740F6 /* Utils */,
+				BA06130529EE28DA004740F6 /* Model */,
+				BA0612F829EE28A7004740F6 /* Views */,
 				BA0612DE29EE27C3004740F6 /* UserAdminAppApp.swift */,
-				BA0612E029EE27C3004740F6 /* ContentView.swift */,
+				BA4263E629EE308300737775 /* Credentials.swift */,
 				BA0612E229EE27C4004740F6 /* Assets.xcassets */,
 				BA0612E429EE27C4004740F6 /* Preview Content */,
 			);
@@ -65,6 +106,58 @@
 				BA0612E529EE27C4004740F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA0612F829EE28A7004740F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F142429EE37BB0009F41B /* UserView.swift */,
+				BA0612FB29EE28BB004740F6 /* AdminView.swift */,
+				BA0612FC29EE28BB004740F6 /* Home.swift */,
+				BA0612FA29EE28BB004740F6 /* Login.swift */,
+				BA0612FD29EE28BB004740F6 /* Register.swift */,
+				BA0612FE29EE28BB004740F6 /* SplashScreen.swift */,
+				BA0612F629EE2862004740F6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA06130529EE28DA004740F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA06130629EE28E2004740F6 /* PhotosModel.swift */,
+				BA06130729EE28E2004740F6 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA06130A29EE28F6004740F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA06132129EE29A2004740F6 /* RadioButtonField.swift */,
+				BA06130B29EE2900004740F6 /* InputTextField.swift */,
+				BA06130D29EE2900004740F6 /* RadioButtonGroups.swift */,
+				BA06130C29EE2900004740F6 /* SecureTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BA06131129EE2910004740F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA06131329EE2918004740F6 /* AuthUser.swift */,
+				BA06131429EE2918004740F6 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA06131829EE292E004740F6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA06131B29EE2935004740F6 /* DataController.swift */,
+				BA06131929EE2935004740F6 /* UserModel.xcdatamodeld */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +176,9 @@
 			dependencies = (
 			);
 			name = UserAdminApp;
+			packageProductDependencies = (
+				BA06131F29EE2957004740F6 /* SDWebImageSwiftUI */,
+			);
 			productName = UserAdminApp;
 			productReference = BA0612DB29EE27C3004740F6 /* UserAdminApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +207,9 @@
 				Base,
 			);
 			mainGroup = BA0612D229EE27C3004740F6;
+			packageReferences = (
+				BA06131E29EE2957004740F6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = BA0612DC29EE27C3004740F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0612E129EE27C3004740F6 /* ContentView.swift in Sources */,
+				BA06130F29EE2900004740F6 /* SecureTextField.swift in Sources */,
+				BA06130429EE28BB004740F6 /* SplashScreen.swift in Sources */,
+				BA0612F729EE2862004740F6 /* ContentView.swift in Sources */,
+				BA06131029EE2900004740F6 /* RadioButtonGroups.swift in Sources */,
+				BA06130829EE28E2004740F6 /* PhotosModel.swift in Sources */,
+				BA06131729EE2918004740F6 /* PhotoViewModel.swift in Sources */,
+				BA06130E29EE2900004740F6 /* InputTextField.swift in Sources */,
+				BA06132229EE29A2004740F6 /* RadioButtonField.swift in Sources */,
+				BA3F142529EE37BB0009F41B /* UserView.swift in Sources */,
 				BA0612DF29EE27C3004740F6 /* UserAdminAppApp.swift in Sources */,
+				BA06130029EE28BB004740F6 /* Login.swift in Sources */,
+				BA06130329EE28BB004740F6 /* Register.swift in Sources */,
+				BA4263E729EE308300737775 /* Credentials.swift in Sources */,
+				BA06130229EE28BB004740F6 /* Home.swift in Sources */,
+				BA06131D29EE2935004740F6 /* DataController.swift in Sources */,
+				BA06130929EE28E2004740F6 /* UserModel.swift in Sources */,
+				BA06131629EE2918004740F6 /* AuthUser.swift in Sources */,
+				BA06131C29EE2935004740F6 /* UserModel.xcdatamodeld in Sources */,
+				BA06130129EE28BB004740F6 /* AdminView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +455,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA06131E29EE2957004740F6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA06131F29EE2957004740F6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA06131E29EE2957004740F6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		BA06131929EE2935004740F6 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA06131A29EE2935004740F6 /* Model.xcdatamodel */,
+			);
+			currentVersion = BA06131A29EE2935004740F6 /* Model.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BA0612D329EE27C3004740F6 /* Project object */;
 }
